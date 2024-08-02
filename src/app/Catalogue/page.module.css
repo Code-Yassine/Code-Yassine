@@ -1,0 +1,17 @@
+.pdf_container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+}
+
+.pdf_download {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(64, 64, 64);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 100px;
+}

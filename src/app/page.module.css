@@ -1,0 +1,170 @@
+.main{
+  background-image: url(./../../public/background.png); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  /* background-color: rgb(66, 66, 66); */
+  height: 100vh;
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.pre{
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 30px;
+}
+.container{
+  margin-top: 90px;
+  text-align: center;
+  color: rgb(40, 40, 40);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container h1{
+  font-size: 80px;
+  padding: 10px;
+}
+.container h4{
+  padding: 10px;
+  font-size: 35px;
+  animation: slide-in 2s ease forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.btn{
+  width: 200px;
+  position: relative;
+  left: 280px;
+  margin: 30px 0px;
+  padding: 10px 30px;
+  background-color: rgb(12, 12, 99);
+  border: 1px solid rgb(12, 12, 99);
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  transition: .5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container div:hover{
+  color: white;
+  background-color: transparent;
+  border:1px solid rgb(243, 239, 239);
+}
+.text h1{
+  padding: 20px 0px 0px 0px;
+  color: rgb(68, 68, 68);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.text p{
+  color: rgb(68, 68, 68);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.image{
+  border:5px solid rgb(169, 169, 169);
+}
+.line{
+  width: 190px;
+  border-bottom: 2px solid rgb(68, 68, 68);
+  margin-bottom: 10px;
+}
+.line2{
+  width: 315px;
+  border-bottom: 2px solid rgb(68, 68, 68);
+  margin-bottom: 10px;
+}
+.container h1 span{
+  color: rgb(12, 12, 99);
+}
+.head{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(242, 242, 242);
+  padding: 30px;
+  text-align: center;
+}
+
+.head h1{
+  padding: 20px;
+  font-size: 40px;
+  color:rgb(68, 68, 68) ;
+}
+.head p {
+  padding: 10px;
+  color: rgb(68, 68, 68);
+  font-family: Montserrat;
+} 
+
+.head1{
+  width: 100%;
+  height: 157px;
+  background-color: rgb(242, 242, 242);
+  padding: 30px;
+  text-align: center;
+}
+
+.head1 h1{
+  padding: 20px;
+  font-size: 40px;
+  color:rgb(68, 68, 68) ;
+}
+.secteurs{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+.secteurs h2{
+  text-align: center;
+  color:rgb(68, 68, 68) ;
+  margin: 10px;
+}
+.Image{
+  border-radius: 50%;
+  border:5px solid rgb(169, 169, 169);
+}
+
+.produits{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px;
+}
+.cadre{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.button {
+  padding: 20px 30px;
+  border: 1px solid rgb(67, 67, 67);
+  color: rgb(62, 62, 62);
+  background-color: transparent;
+  text-align: center;
+  transition: .5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover{
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.cadre h3{
+  margin: 10px;
+}
+
+.last{
+  padding-top: 150px;
+}

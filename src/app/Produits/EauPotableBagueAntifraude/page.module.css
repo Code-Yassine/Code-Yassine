@@ -1,0 +1,162 @@
+.main{
+    height: 350px;
+    background-image: url(./../../../../public/bac.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    color: rgb(208, 208, 208);
+    font-size: 65px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content:space-between;
+    gap: 40px;
+}
+.text{
+    padding: 30px;
+}
+.text p{
+    font-size: 14px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    line-height: 28px;
+    margin-block-end: 0px;
+    margin-block-start: 15px;
+}
+.text h5{
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 41.6px;
+    margin-block-end: 15px;
+    margin-block-start: 0px;
+}
+.text span{
+    font-weight: bold;
+}
+.box_images{
+    margin-right: 10px;
+    margin-top: 70px;
+}
+.image{
+    margin: 30px 0px;
+    border-radius: 8px;
+}
+
+.header{
+    width: 200px;
+    background-color: rgb(242, 242, 242);
+    height: 700px;
+}
+/* Container styling */
+.containerMenu{
+    padding: 1rem;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  /* Title styling */
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  /* Navigation styling */
+  .nav {
+    display: grid;
+    gap: 1rem;
+  }
+  .nav h4{
+    color: rgb(25, 25, 124);
+  }
+  
+  /* Navigation link styling */
+  .navlink {
+    font-weight: bold;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    color: #898989;
+    transition: color 0.3s;
+    animation: slide-in 1s forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  /* Active link styling */
+  .navlink.active {
+    color: #000000;
+    border-bottom: 5px solid black;
+  }
+  
+  /* Hover effect for links */
+  .navlink:hover {
+    border-bottom: 5px solid #898989;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .nav {
+        width: 100%;
+        justify-content: flex-start;
+    }
+  
+    .navlink {
+        padding: 0.5rem 1rem;
+    }
+  }
+  
+  .titre{
+    width: 600px;
+    height: 90px;
+    background-color: rgb(172, 134, 52);
+    color: white;
+    margin: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-right: 7px solid grey;
+  }
+  .titre h1{
+    padding-top: 10px;
+  }
+
+  .head1{
+    width: 100%;
+    height: 157px;
+    background-color: rgb(242, 242, 242);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .head1 h1{
+    padding: 20px;
+    font-size: 40px;
+    color:rgb(68, 68, 68) ;
+  }
+  .pdf_container{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .pdf_download{
+    border: 2px solid rgb(152, 152, 152);
+    border-radius: 7px;
+  }
