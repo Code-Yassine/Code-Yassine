@@ -31,7 +31,7 @@
   <img width="12" />
   </div>
 
-<h3 align="left">Programming Languages:<h3>
+<h3 align="left">Database Technologies:<h3>
   
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
